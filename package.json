@@ -1,0 +1,28 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlyaKorn/excel.git"
+  },
+  "keywords": [],
+  "author": "Ilya Koren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IlyaKorn/excel/issues"
+  },
+  "homepage": "https://github.com/IlyaKorn/excel#readme",
+  "devDependencies": {
+    "favicons": "^7.1.0",
+    "favicons-webpack-plugin": "^6.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
