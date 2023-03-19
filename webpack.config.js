@@ -46,6 +46,7 @@ module.exports = (env, argv) => {
       alias: {
         '@': path.resolve(__dirname, 'src'),
         '@core': path.resolve(__dirname, 'src', 'core'),
+        '@styles': path.resolve(__dirname, 'src', 'sass')
       },
     },
     devServer: {
