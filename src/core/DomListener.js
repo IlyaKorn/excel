@@ -30,6 +30,7 @@ export class DomListener {
           `Method ${method} is not implemented in ${this.name || ''}`
       )
     }
+    this[method] = this[method].bind(this)
     return this[method]
   }
 }
